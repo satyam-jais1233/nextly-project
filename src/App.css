@@ -1,0 +1,7 @@
+.my-nav-link {
+  margin: 0 15px;
+}
+
+.my-nav-link:hover {
+  transform: scale(1.1); /* thoda zoom effect */
+}
