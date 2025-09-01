@@ -3,7 +3,7 @@ import img1 from "../image/logo.svg";
 function Footer() {
   return (
     <>
-     <footer className="footer bg-dark">
+      <footer className="footer bg-dark">
         <div className="container-fluid py-5 border border-end-0  border-start-0">
           <div className="row">
             <div className="col-12 col-md-3">
@@ -38,17 +38,43 @@ function Footer() {
             <div className=" col-12 col-md-3 fs-5 px-5 py-3">
               <div className="d-flex flex-column gap-2 ">
                 <a className=" text-light link-underline-dark">Follow us</a>
-                 </div>
-                <div className="d-flex justify-content-between py-3">
-                <i class="fa-brands fa-twitter bg-white"></i>
-                <i class="fa-brands fa-facebook bg-white"></i>
-                <i class="fa-brands fa-instagram  bg-white"></i>
-                <i class="fa-brands fa-linkedin bg-white"></i>
-                </div>
-             
+              </div>
+              <div className="d-flex justify-content-between py-3 ">
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-twitter "></i>
+                </a>
+                <a
+                  href="https://www.facebook.com"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-facebook "></i>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="https://in.linkedin.com"
+                target="blank"
+                rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
             </div>
 
-             <div className="text-center text-light py-5"><p>Copyright © 2024. Made with ♥ by Web3Templates. Illustrations from Glazestock</p></div>
+            <div className="text-center text-light py-5">
+              <p>
+                Copyright © 2024. Made with ♥ by Web3Templates. Illustrations
+                from Glazestock
+              </p>
+            </div>
           </div>
         </div>
       </footer>

@@ -5,3 +5,6 @@
 .my-nav-link:hover {
   transform: scale(1.1); /* thoda zoom effect */
 }
+.w-65 {
+  width: 60% !important;
+}
