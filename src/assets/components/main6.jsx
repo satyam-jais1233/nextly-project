@@ -8,7 +8,7 @@ function Main6() {
       <div className="container-fluid bg-dark ">
         <div className="d-flex justify-content-center align-items-center p-5">
           <div className="row g-5 ">
-            <div className="col-12 col-md-4">
+            <div className=" col-12 col-md-4">
               <div className="p-5  rounded text-light shadow fs-4">
                 <p>
                   Share a real testimonial that hits some of your benefits from
@@ -107,7 +107,7 @@ function Main6() {
       {/* new line accordion */}
 
       <div className="container-fluid py-5 d-flex justify-content-center bg-dark">
-        <div className="accordion w-50" id="accordionExample">
+        <div className="accordion w-65" id="accordionExample">
           <div className="accordion-item p-3 bg-dark border-0">
             <h2 className="accordion-header">
               <button
@@ -190,7 +190,7 @@ function Main6() {
               <h1>Ready to try-out this template?</h1>
               <p>Don't let your visitors see a poor landing.</p>
             </div>
-            <div className="d-flex align-items-center  bg-white rounded px-4"  style={{ height: "60px" }}>
+            <div className="d-flex align-items-center  bg-white rounded px-5"  style={{ height: "60px" }}>
                 <a href="https://github.com/web3templates"
                 target="blank"
                 className="link-underline-light "

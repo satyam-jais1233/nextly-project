@@ -22,8 +22,8 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <div className="navbar-nav mx-auto">
+        <div className="collapse navbar-collapse " id="navbarNav">
+          <div className="navbar-nav mx-auto gap-3">
             <a className="nav-link text-light" href="#">
               Product
             </a>

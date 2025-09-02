@@ -25,7 +25,7 @@ function App() {
       <Main4 />
       <Main5 />
       <Main6 />
-      <Footer/>
+      <Footer />
     </>
   );
 }
